@@ -41,20 +41,5 @@
 $route['default_controller'] = "profile";
 $route['404_override'] = '';
 
-$route['resizer/size/:any'] = "resizer/size";
-$route['resizer/thumb/:any'] = "resizer/thumb";
-$route['register'] = "app/register";
-$route['terms'] = "app/terms";
- 
-
-$route['map/manager/(:any)/(:any)/(:any)'] = "manager/$1/$2/$3"; 
-$route['map/manager/(:any)/(:any)'] = "manager/$1/$2";
-$route['map/manager/(:any)'] = "manager/$1";
- 
-$route['^badge/(.+)$/(.+)$/(.+)$'] = "$1/$2/$3";
-$route['^badge/(.+)$/(.+)$'] = "$1/$2";
-$route['^badge/(.+)$'] = "$1"; 
-
-
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
