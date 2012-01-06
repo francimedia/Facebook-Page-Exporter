@@ -1,0 +1,8 @@
+# AddType x-mapp-php5 .php
+# AddHandler x-mapp-php5 .php
+
+RewriteEngine on
+# RewriteBase /facebook_badge_xmas/
+RewriteCond $1 !^(crossdomain\.xml|index\.php|public|robots\.txt|xd_receiver\.htm)
+RewriteRule ^(.*)$ index.php/$1 [L]
+ 
