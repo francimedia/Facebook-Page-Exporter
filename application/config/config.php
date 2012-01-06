@@ -21,17 +21,11 @@ define('HTTP_PREFIX', $prefix);
 
 switch ($_SERVER['HTTP_HOST'])
 {
-    case 'pageexport.fm':
-        $config['base_url'] = $prefix . "://pageexport.fm/";
-        break;
-    case 'francimedia.homeip.net':
-        $config['base_url'] = $prefix . "://francimedia.homeip.net/";
-        break;
-    case 'www.socialmediahosting.de':
-        $config['base_url'] = $prefix . "://www.socialmediahosting.de/facebook/pageexport/";
-        break;
+    case 'testdomain.homeip.net':
+        $config['base_url'] = $prefix . "://testdomain.homeip.net/";
+        break; 
     default:
-        $config['base_url'] = $prefix . "://social-danone.de/pageexport/";
+        $config['base_url'] = $prefix . "://www.domain.de/";
         break;
 }
  
